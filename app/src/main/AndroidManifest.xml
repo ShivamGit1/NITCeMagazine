@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/mage_logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NITCeMagazine"
+        android:screenOrientation="portrait"
+        tools:targetApi="31">
+        <activity
+            android:name=".RejectedArticle.RejectedArticleViewArticle"
+            android:exported="false" />
+        <activity
+            android:name=".RejectedArticle.RejectedArticle"
+            android:exported="false" />
+        <activity
+            android:name=".MyArticles.ViewMyArticle"
+            android:exported="false" />
+        <activity
+            android:name=".MyArticles.MyArticle"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndSignUp.UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".AddReviewerAndEditor.DeleteReviewer"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteArticle.DeleteArticle"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewUnpostedArticle.ReviewUnpostedArticles"
+            android:exported="false" />
+        <activity
+            android:name=".AddReviewerAndEditor.AddReviewer"
+            android:exported="true" />
+        <activity
+            android:name=".AddReviewerAndEditor.AddEditor"
+            android:exported="true" />
+        <activity
+            android:name=".ReviewUnpostedArticle.ReviewerPage"
+            android:exported="true" />
+        <activity
+            android:name=".PostUnpostedArticle.EditorPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityPages.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndSignUp.SignUpPage"
+            android:exported="true" />
+        <activity
+            android:name=".LoginAndSignUp.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".getStarted.splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".getStarted.getStartedPage"
+            android:exported="true" />
+        <activity
+            android:name=".LoginAndSignUp.ForgotPassword"
+            android:exported="true" />
+        <activity
+            android:name=".Fragments.ViewArticle"
+            android:exported="true" />
+        <activity
+            android:name=".PostUnpostedArticle.PostUnpostedArticles"
+            android:exported="true" />
+
+        <service
+            android:name=".Notification.FirebaseMessagingService"
+            android:permission="TODO"
+            tools:ignore="ExportedService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

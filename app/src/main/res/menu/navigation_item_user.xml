@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/signInNavDrawer"
+                android:title="Sign In"
+                android:icon="@drawable/baseline_login_24"/>
+
+            <item
+                android:id="@+id/signUpNavDrawer"
+                android:title="Sign Up"
+                android:icon="@drawable/baseline_app_registration_24"/>
+
+            <item
+                android:id="@+id/userProfileNavDrawer"
+                android:title="Profile"
+                android:icon="@drawable/baseline_person_24"/>
+
+            <item
+                android:id="@+id/changePasswordNavDrawer"
+                android:title="Change Password"
+                android:icon="@drawable/baseline_password_24"/>
+
+            <item
+                android:id="@+id/logoutNavDrawer"
+                android:title="Logout"
+                android:icon="@drawable/baseline_logout_24"/>
+        </menu>
+    </item>
+
+    <item android:title="Articles">
+        <menu>
+            <item
+                android:id="@+id/addPostNavDrawer"
+                android:title="Add Post"
+                android:icon="@drawable/baseline_post_add_24"/>
+
+            <item
+                android:id="@+id/myArticleNavDrawer"
+                android:title="My Article"
+                android:icon="@drawable/baseline_article_24"/>
+
+            <item
+                android:id="@+id/rejectedArticleNavDrawer"
+                android:title="Rejected Articles"
+                android:icon="@drawable/baseline_cancel_presentation_24"/>
+
+        </menu>
+    </item>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:title="enitc10@gmail.com"
+                />
+        </menu>
+    </item>
+
+</menu>

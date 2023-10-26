@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "278089311429",
+    "firebase_url": "https://nitc-e-magazine-default-rtdb.firebaseio.com",
+    "project_id": "nitc-e-magazine",
+    "storage_bucket": "nitc-e-magazine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278089311429:android:831780a8c6ad368d9dbcac",
+        "android_client_info": {
+          "package_name": "com.example.nitcemagazine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278089311429-scd7m1tdpgrtrnksmf1ks4u4skr6rhdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nitcemagazine",
+            "certificate_hash": "85649a1780c6e83d00f611e3fcff1520c27a1af1"
+          }
+        },
+        {
+          "client_id": "278089311429-1etakbh73vgg7r53o4k25idp401v4b3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCajFj-HVwSAVqT3ExvOav-k_F6oBQep90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278089311429-1etakbh73vgg7r53o4k25idp401v4b3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

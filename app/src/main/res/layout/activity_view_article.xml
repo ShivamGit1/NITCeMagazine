@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        app:layout_editor_absoluteX="670dp"
+        tools:context=".Fragments.ViewArticle">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/articleImageArticleView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="19dp"
+                android:minHeight="300dp"
+                app:layout_constraintBottom_toTopOf="@+id/likeButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/likeButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="like image"
+                app:layout_constraintBottom_toTopOf="@+id/TitleArticleView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                android:background="@drawable/baseline_favorite_24"
+                />
+
+            <TextView
+                android:id="@+id/likeno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="likes"
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/TitleArticleView"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/likeButton" />
+
+            <TextView
+                android:id="@+id/TitleArticleView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:text="ERA of Chatrapati Shivaji Maharaj"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/articleTextArticleView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/articleImageArticleView" />
+
+
+
+            <TextView
+                android:id="@+id/articleTextArticleView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:padding="16dp"
+                android:text="Over the course of his life, Shivaji engaged in both alliances and hostilities with the Mughal Empire, the Sultanate of Golkonda, Sultanate of Bijapur and the European colonial powers. Shivaji's military forces expanded the Maratha sphere of influence, capturing and building forts, and forming a Maratha navy. Shivaji established a competent and progressive civil rule with well-structured administrative organisations. He revived ancient Hindu political traditions, court conventions and promoted the usage of the Marathi and Sanskrit languages, replacing Persian in court and administration"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/currentUserImageArticleView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TitleArticleView" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/currentUserImageArticleView"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/baseline_add_comment_24"
+                app:layout_constraintBottom_toTopOf="@+id/commentArticleView"
+                app:layout_constraintEnd_toStartOf="@+id/commentArticleView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/articleTextArticleView"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <EditText
+                android:id="@+id/commentArticleView"
+                android:layout_width="230dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="4dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Comment"
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toStartOf="@+id/buttonAddCommentArticleView"
+                app:layout_constraintStart_toEndOf="@+id/currentUserImageArticleView"
+                app:layout_constraintTop_toBottomOf="@+id/articleTextArticleView"
+                tools:layout_editor_absoluteY="927dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewArticleView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="9dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/commentArticleView" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonAddCommentArticleView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="9dp"
+                android:text="Add"
+                android:background="@drawable/button_background"
+                app:layout_constraintBaseline_toBaselineOf="@+id/commentArticleView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/commentArticleView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
