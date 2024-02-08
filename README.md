@@ -6,7 +6,7 @@ NITC MAG-e (NITC e-Magazine) is an Android application designed to facilitate th
 - **NITC Users:** NIT Calicut Students, faculties, staff including reviewers & editors, logged in the app.
 - **Reviewer:** NITC user with reviewer privilege.
 - **Editor:** NITC user with reviewer privilege.
-- **Guest:** Users who are not from NITC or not logged in.
+- **Guest:** Users who are not from NITC or not logged in to the app.
 - **Author:** NITC Users whose article(s) are in the app or submitted to be posted after review.
 - **All Users:** Includes NITC users and guests.
 - **Admin:** NITC admin, the admin is a user of the app whose credentials have been hardcoded directly in the backend.
