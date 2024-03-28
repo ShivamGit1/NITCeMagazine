@@ -62,4 +62,9 @@ NITC MAG-e (NITC e-Magazine) is an Android application designed to facilitate th
 
 ---
 
+### PPT
+Images<br>
+<img src="PPT_MAGe/mage_01.png" width="410">
+
+
 **This README file provides a comprehensive overview of the NITC MAG-e Android app, including its features, technology used, prerequisites, steps to run the app, usage instructions, and version control.**
