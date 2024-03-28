@@ -66,23 +66,23 @@ NITC MAG-e (NITC e-Magazine) is an Android application designed to facilitate th
 Images<br>
 <img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-01.png" width="410">
 <img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-02.png" width="410">
-<img src="PPT_MagE/MagE-04.png" width="410">
-<img src="PPT_MagE/MagE-05.png" width="410">
-<img src="PPT_MagE/MagE-06.png" width="410">
-<img src="PPT_MagE/MagE-07.png" width="410">
-<img src="PPT_MagE/MagE-08.png" width="410">
-<img src="PPT_MagE/MagE-09.png" width="410">
-<img src="PPT_MagE/MagE-10.png" width="410">
-<img src="PPT_MagE/MagE-11.png" width="410">
-<img src="PPT_MagE/MagE-12.png" width="410">
-<img src="PPT_MagE/MagE-13.png" width="410">
-<img src="PPT_MagE/MagE-14.png" width="410">
-<img src="PPT_MagE/MagE-15.png" width="410">
-<img src="PPT_MagE/MagE-16.png" width="410">
-<img src="PPT_MagE/MagE-17.png" width="410">
-<img src="PPT_MagE/MagE-18.png" width="410">
-<img src="PPT_MagE/MagE-19.png" width="410">
-<img src="PPT_MagE/MagE-20.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-04.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-05.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-06.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-07.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-08.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-09.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-10.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-11.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-12.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-13.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-14.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-15.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-16.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-17.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-18.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-19.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-20.png" width="410">
 
 
 **This README file provides a comprehensive overview of the NITC MAG-e Android app, including its features, technology used, prerequisites, steps to run the app, usage instructions, and version control.**
