@@ -64,8 +64,8 @@ NITC MAG-e (NITC e-Magazine) is an Android application designed to facilitate th
 
 ### PPT
 Images<br>
-<img src="PPT_MagE/MagE-01.png" width="410">
-<img src="PPT_MagE/MagE-02.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-01.png" width="410">
+<img src="https://github.com/ShivamGit1/Images/blob/main/PPT_MagE/MagE-02.png" width="410">
 <img src="PPT_MagE/MagE-04.png" width="410">
 <img src="PPT_MagE/MagE-05.png" width="410">
 <img src="PPT_MagE/MagE-06.png" width="410">
